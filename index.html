@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cedro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="dropdown-component">
+        <div class="button">
+            <button class="button__content">
+                <img src="/images/search.svg" alt="search">
+                ЖК, Округ, район, метро
+            </button>
+            <div class="selected-count hidden"></div>
+        </div>
+        <div class="dropdown hidden">
+            <div class="tab-list">
+                <div class="tab-list__item tab-list__item-active" data-tab="residentialComplex">Жк</div>
+                <div class="tab-list__item" data-tab="bigDistricts">Округ</div>
+                <div class="tab-list__item" data-tab="districts">Район</div>
+                <div class="tab-list__item" data-tab="metroStations">Метро</div>
+            </div>
+            <div class="dropdown__selected selected hidden"></div>
+            <div class="dropdown-list__container">
+                <ul class="dropdown-list"></ul>
+            </div>
+            <div class="dropdown-gradient"></div>
+        </div>
+    </div>
+</body>
+</html>
