@@ -175,7 +175,7 @@ function showChips() {
             selectedItem.textContent = name;
             const img = document.createElement('img');
             img.alt = 'close';
-            img.src = '/images/close.svg';
+            img.src = './images/close.svg';
             img.setAttribute('data-id', id);
             selectedItem.append(img);
             dropdownSelected.append(selectedItem);

@@ -195,7 +195,7 @@
 .custom-checkbox>input:checked+span::after {
     border-color: #0067FE;
     background-color: #0067FE;
-    background-image: url('/images/check.svg');
+    background-image: url('./images/check.svg');
 }
 
 .hidden {
